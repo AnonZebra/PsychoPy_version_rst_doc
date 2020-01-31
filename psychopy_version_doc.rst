@@ -9,17 +9,17 @@ In `PsychoPy standalone <https://www.psychopy.org/download.html>`_, there is an 
 
 Version control using Builder View
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Open up the PsychoPy experiment file (i. e. a '.psyexp' file) that has the experiment you want to use. 
-2. Go to experiment settings (by clicking the icon with a cogwheel). 
+1. Open up the PsychoPy experiment file (a '.psyexp' file) that contains the experiment you want to use. 
+2. Go to experiment settings by clicking the icon with a cogwheel. 
 3. Under the "Basic" settings tab, there is an option named "Use PsychoPy version". Set it to the PsychoPy version you want to emulate. 
 4. Click "OK" to save the settings. 
-5. Run the experiment (i. e. click the green 'run' button).
+5. Run the experiment by clicking the green 'run' button.
 
 Version control using Coder View
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Open up the PsychoPy script file (i. e. a '.py' file) that has the experiment you want to use. 
+1. Open up the PsychoPy script file (a '.py' file) that contains the experiment you want to use. 
 2. Add :code:`import psychopy` at the top of your script, where the other import statements are.
-3. Add the function call :code:`psychopy.useVersion('<version_no>')` (e. g. :code:`psychopy.useVersion('1.90.2')`) directly below your import statements)
+3. Add the function call :code:`psychopy.useVersion('<version_no>')` (e. g. :code:`psychopy.useVersion('1.90.2')`) directly below your import statements.
 4. Run the script.
 
 NOTE: Internet connection needed (the first time)
